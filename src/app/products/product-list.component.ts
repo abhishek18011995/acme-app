@@ -28,15 +28,7 @@ export class ProductListComponent implements OnInit{
 		this.products=response
 	},(error):void=>console.log("error loading"));
 	}
-	// public get listfilter() : string {
-	// 	return this._listFilter;
-	// }
 
-	
-	// public set listfilter(value : string) {
-	// 	this._listFilter = value;
-	// 	console.log(this._listFilter);
-	// }
 	
 	
 	

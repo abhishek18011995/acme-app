@@ -9,11 +9,12 @@ import { ConvertToSpacesPipe } from './shared/convert-to-spaces.pipe';
 import { ProductFilter } from './shared/product-filter.pipe';
 import { StarRatingComponent } from './shared/star-rating.component';
 import { ProductService } from './products/product.service';
+import { WelcomeComponent } from './home/welcome.component';
 
 
 @NgModule({
   imports:      [ BrowserModule,FormsModule, HttpClientModule ],
-  declarations: [ AppComponent,ProductListComponent, ConvertToSpacesPipe, ProductFilter,StarRatingComponent],
+  declarations: [ AppComponent,ProductListComponent, ConvertToSpacesPipe, ProductFilter,StarRatingComponent,WelcomeComponent],
   bootstrap:    [ AppComponent ],
 providers:[ProductService]
 })
